@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 500px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .photo {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+  .upload-section {
+    margin-bottom: 20px;
+  }
+  
+  #photoFeed .photo-card {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  #photoFeed img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .like-btn, .comment-btn {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .like-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .comment-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .like-count {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+  }
+
+  .like-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .like-btn:disabled, .comment-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
